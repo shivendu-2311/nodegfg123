@@ -1,5 +1,5 @@
-import koa from "koa"
-import  koaRouter from "koa-router"
+import * as koa from "koa"
+import * as koaRouter from "koa-router"
 
 const server = new koa();
 const router = new koaRouter();
